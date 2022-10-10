@@ -28,9 +28,9 @@
       <div class="flex flex-col-reverse">
         <div v-for="(post, index) in posts" :key="index" class="w-full flex-col p-4 border-b flex">
           <div class="flex">
-            <router-link to="/user" class="flex-none cursor-pointer mr-4">
+            <div @click="goToUserPage(post.uid)" class="flex-none cursor-pointer mr-4">
               <img src="@/assets/images/avatar3.png" class="h-12 w-12 rounded-full border border-lighter flex-none"/>
-            </router-link>
+            </div>
             <div class="w-full text-left">
               <div class="flex items-center w-full text-left">
                 <p @click="goToUserPage(post.uid)" class="font-semibold cursor-pointer"> {{ post.author}} </p>
@@ -58,7 +58,7 @@
             </div>
           </div>
           <!-- Comments START -->
-          <div v-if="commentsIds.includes(post.id)" class="w-full flex-col p-4 pb-0 bord border rounded-lg pl-20 bg-gray-50 flex">
+          <div v-if="commentsIds.includes(post.id)" class="w-full flex-col p-4 pb-0 bord border rounded-lg pl-20 bg-gray-100 flex">
             <div v-if="comment.postId === post.id" :id="'edit-button-' + index" class="flex border-b bord last:border-b-0 mb-2" v-for="(comment, index) in comments" :key="index">
               <router-link to="/user" class="flex-none mr-4">
                 <img src="@/assets/images/avatar3.png" class="h-8 w-8 rounded-full border border-lighter flex-none"/>
@@ -92,7 +92,7 @@
 
           <!-- Write new comment START -->
           <form>
-            <div v-if="isLoggedIn" class="mb-4 mt-3 w-full bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
+            <div v-if="isLoggedIn" class="mb-4 mt-3 w-full bg-gray-100 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
               <div class="py-2 px-4 bg-white rounded-t-lg dark:bg-gray-800">
                 <label for="comment" class="sr-only">Your comment</label>
                 <textarea :value="comment.content" :id="'comment-id-' + index" rows="1" class="px-0 w-full text-sm text-gray-900 bg-white border-0" placeholder="Write a comment..." required=""></textarea>
