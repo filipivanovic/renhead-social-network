@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sbanger0",
+      "fullName": "Sharon Banger",
+      "email": "sbanger0@sciencedirect.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "username": "jshenton1",
+      "fullName": "Janean Shenton",
+      "email": "jshenton1@answers.com",
+      "password": "12345"
+    },
+    {
+      "fullName": "Filip Ivanovic",
+      "username": "fivanovic",
+      "email": "fivanovic@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "fullName": "Toni Kroos",
+      "username": "tonikr8s",
+      "email": "toni@kroos.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "fullName": "Karim Benzema",
+      "username": "kbenzema",
+      "email": "karim@benzema.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "fullName": "Dani Carvajal",
+      "username": "dcarva",
+      "email": "dani@carva.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "fullName": "fad",
+      "username": "afsd",
+      "email": "fads@dsf.com",
+      "password": "arae",
+      "id": 7
+    }
+  ],
+  "login": [
+    {
+      "email": "test@test.com",
+      "password": "1234"
+    }
+  ],
+  "register": [
+    {
+      "fullName": "fasd",
+      "username": "asfsd",
+      "email": "fads@sdsf.com",
+      "password": "arase",
+      "id": 75
+    },
+    {
+      "fullName": "fgdsg",
+      "username": "gsd",
+      "email": "filip_ivanovic@hotmail.com",
+      "password": "gsdf",
+      "id": 76
+    },
+    {
+      "fullName": "afdsaf",
+      "username": "afdfa",
+      "email": "faadsf@cdaa.cdc",
+      "password": "wedeqw",
+      "id": 77
+    }
+  ]
+}

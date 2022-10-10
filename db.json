@@ -1,0 +1,96 @@
+{
+  "posts": [
+    {
+      "author": "Filip Ivanovic",
+      "uid": 1,
+      "username": "fivanovic",
+      "content": "Dobar dan!",
+      "id": 1
+    },
+    {
+      "author": "Marko Markovic",
+      "uid": 3,
+      "username": "mmarkovic",
+      "content": "Kako ste?",
+      "id": 2
+    },
+    {
+      "author": "Petar Petrovic",
+      "uid": 2,
+      "username": "ppetrovic",
+      "content": "Danas je trka F1",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "author": "Marko Markovic",
+      "uid": 3,
+      "content": "Dobar dan",
+      "postId": 2,
+      "id": 3
+    },
+    {
+      "author": "Marko Markovic",
+      "uid": 3,
+      "content": "Pozdrav!",
+      "postId": 3,
+      "id": 4
+    },
+    {
+      "author": "Marko Markovic",
+      "uid": 3,
+      "content": "Kako je?",
+      "postId": 1,
+      "id": 20
+    },
+    {
+      "author": "Marko Markovic",
+      "uid": 3,
+      "content": "Srecno",
+      "postId": 2,
+      "id": 21
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "filip_ivanovic@hotmail.com",
+      "password": "$2a$10$fQRzcNmvTQ/6c5HJ48PsReT76pN5wYcd8AV2ZN02QB0VbJYHH6GRW",
+      "fullName": "Filip Ivanovic",
+      "username": "fivanovic",
+      "id": 1
+    },
+    {
+      "email": "petar@email.com",
+      "password": "$2a$10$glQxqz4W7nTIVuW2.5SMie67xTzOylgi7LykXCauIFxnyQCCKpoVi",
+      "fullName": "Petar Petrovic",
+      "username": "ppetrovic",
+      "id": 2
+    },
+    {
+      "email": "marko@email.com",
+      "password": "$2a$10$PAaq1tjCYNQ0Xiod/4lpUONHEwkAqFvBWAPdMTifbe/4JQgM5q6AG",
+      "fullName": "Marko Markovic",
+      "username": "mmarkovic",
+      "id": 3
+    }
+  ],
+  "login": [
+    {
+      "email": "",
+      "password": ""
+    }
+  ],
+  "register": [
+    {
+      "email": "",
+      "password": "",
+      "fullName": "",
+      "username": "",
+      "id": ""
+    }
+  ]
+}
